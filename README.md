@@ -12,7 +12,7 @@ apt-get install git
 git clone https://github.com/Nya-WSL/unturned_server_cmd.git
 ```
 ```
-# if don't want use git, please use this.
+# If don't want use git, please use this.
 mkdir /opt/unturned_server_cmd
 cd /opt/unturned_server_cmd
 wget https://github.com/Nya-WSL/unturned_server_cmd/releases/download/stable/install.sh
@@ -22,6 +22,7 @@ wget https://github.com/Nya-WSL/unturned_server_cmd/releases/download/stable/upd
 cd /opt/unturned_server_cmd
 sudo chmod +x *.sh
 ./install.sh
+# If the server is in Chinese Mainland, you may not be able to login to steamcmd. At this time, you can use "./update.sh" to skip the install dependency and login to steamcmd again.
 ```
 
 - Update
